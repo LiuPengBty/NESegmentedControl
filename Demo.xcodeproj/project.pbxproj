@@ -15,6 +15,7 @@
 		0008634F1C38227C00925620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0008634D1C38227C00925620 /* LaunchScreen.storyboard */; };
 		0008635A1C38227C00925620 /* DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000863591C38227C00925620 /* DemoTests.m */; };
 		000863651C38227C00925620 /* DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000863641C38227C00925620 /* DemoUITests.m */; };
+		000863751C3822B300925620 /* NESegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 000863741C3822B300925620 /* NESegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		000863601C38227C00925620 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000863641C38227C00925620 /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
 		000863661C38227C00925620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000863731C3822B300925620 /* NESegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NESegmentedControl.h; sourceTree = "<group>"; };
+		000863741C3822B300925620 /* NESegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NESegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		0008633E1C38227C00925620 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				000863721C3822A100925620 /* NESegmentedControl */,
 				000863421C38227C00925620 /* AppDelegate.h */,
 				000863431C38227C00925620 /* AppDelegate.m */,
 				000863451C38227C00925620 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				000863661C38227C00925620 /* Info.plist */,
 			);
 			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		000863721C3822A100925620 /* NESegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				000863731C3822B300925620 /* NESegmentedControl.h */,
+				000863741C3822B300925620 /* NESegmentedControl.m */,
+			);
+			path = NESegmentedControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 				000863471C38227C00925620 /* ViewController.m in Sources */,
 				000863441C38227C00925620 /* AppDelegate.m in Sources */,
 				000863411C38227C00925620 /* main.m in Sources */,
+				000863751C3822B300925620 /* NESegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
